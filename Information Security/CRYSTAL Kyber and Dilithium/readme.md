@@ -1,3 +1,6 @@
+# Post Quantum Cryptography
+Post-quantum cryptography refers to cryptographic algorithms designed to be secure against the potential future threats posed by quantum computers. Unlike classical cryptography, which relies on problems like integer factorization or discrete logarithms that quantum computers could efficiently solve, post-quantum algorithms are based on mathematical problems that are believed to be resistant to both quantum and classical attacks. These algorithms ensure that encrypted data, digital signatures, and other cryptographic operations remain secure even if powerful quantum computers become a reality. Major categories include lattice-based cryptography, hash-based cryptography, multivariate polynomial cryptography, and code-based cryptography.
+
 # CRYSTALS-Kyber for API Security
 
 CRYSTALS-Kyber is a key encapsulation mechanism (KEM) and public-key encryption algorithm. It is used to securely exchange symmetric keys over insecure channels.
