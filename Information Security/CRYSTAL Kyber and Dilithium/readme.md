@@ -1,4 +1,4 @@
-CRYSTALS-Kyber for API Security
+# CRYSTALS-Kyber for API Security
 
 CRYSTALS-Kyber is a key encapsulation mechanism (KEM) and public-key encryption algorithm. It is used to securely exchange symmetric keys over insecure channels.
 API Security Use Cases
@@ -26,7 +26,7 @@ Benefits
     Quantum Resistance: Secure against quantum attacks, making it future-proof.
     Efficiency: Low computational overhead, suitable for performance-critical applications.
 
-CRYSTALS-Dilithium for API Security
+# CRYSTALS-Dilithium for API Security
 
 CRYSTALS-Dilithium is a digital signature scheme that provides authentication and data integrity verification.
 API Security Use Cases
@@ -56,7 +56,7 @@ Benefits
     Quantum Resistance: Provides security against quantum attacks.
     Compact and Efficient: Signatures are relatively small, ensuring minimal impact on performance.
 
-Combined Application for API Security
+## [Hybrid]Combined Application for API Security
 
 Combining CRYSTALS-Kyber and CRYSTALS-Dilithium can provide a robust security framework for APIs:
 
