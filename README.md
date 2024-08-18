@@ -1,6 +1,6 @@
 # FLIPKART-GRID-6.0
 
-
+```
 User (Flipkart) → [NGINX Proxy] → [Authentication Service] → [RBAC Service] → [Product & Inventory Management] → [Inventory Database]
                            ↓
                          [Data Scrambling] → [Secure Storage]
@@ -13,7 +13,7 @@ User (Flipkart) → [NGINX Proxy] → [Authentication Service] → [RBAC Service
                            ↓
                          [Violation Log] → [Visualization]
 
-
+```
 
 
 
