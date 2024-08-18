@@ -1,5 +1,22 @@
 # FLIPKART-GRID-6.0
 
+```
+User (Flipkart) → [NGINX Proxy] → [Authentication Service] → [RBAC Service] → [Product & Inventory Management] → [Inventory Database]
+                           ↓
+                         [Data Scrambling] → [Secure Storage]
+                           ↓
+                         [Payment Processing] → [External Payment Gateway]
+                           ↓
+                         [Timeout Management]
+                           ↓
+                         [Token Log] → [Visualization]
+                           ↓
+                         [Violation Log] → [Visualization]
+
+```
+
+
+
 1. Zero Trust Architecture
 Description:
 
