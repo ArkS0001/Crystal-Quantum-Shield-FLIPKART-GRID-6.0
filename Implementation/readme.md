@@ -57,3 +57,6 @@
         Set up a CI/CD pipeline using tools like Jenkins or GitLab CI to automate testing, building, and deployment of your system.
     Regular Updates:
         Ensure that cryptographic libraries, deep learning models, and system dependencies are regularly updated to protect against new vulnerabilities.
+
+![architecture2(1)](https://github.com/user-attachments/assets/17245e53-85f2-43ec-a1d6-948fd8527b44)
+
