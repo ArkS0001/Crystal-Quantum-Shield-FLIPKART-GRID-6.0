@@ -1,4 +1,5 @@
 E:\Flipkart>python ratelimitcheck.py
+```
 Request 1: Status Code = 200, Time = 2.732201s
 Request 2: Status Code = 200, Time = 2.052197s
 Request 3: Status Code = 200, Time = 2.058841s
@@ -29,3 +30,4 @@ Request 27: Status Code = 200, Time = 2.076987s
 Request 28: Status Code = 200, Time = 2.035921s
 Request 29: Status Code = 200, Time = 2.061739s
 Request 30: Status Code = 200, Time = 2.061489s
+```
