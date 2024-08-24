@@ -1,1 +1,31 @@
-
+E:\Flipkart>python ratelimitcheck.py
+Request 1: Status Code = 200, Time = 2.732201s
+Request 2: Status Code = 200, Time = 2.052197s
+Request 3: Status Code = 200, Time = 2.058841s
+Request 4: Status Code = 200, Time = 2.070691s
+Request 5: Status Code = 200, Time = 2.071003s
+Request 6: Status Code = 200, Time = 2.06148s
+Request 7: Status Code = 200, Time = 2.080716s
+Request 8: Status Code = 200, Time = 2.079006s
+Request 9: Status Code = 200, Time = 2.064985s
+Request 10: Status Code = 200, Time = 2.066116s
+Request 11: Status Code = 200, Time = 2.048781s
+Request 12: Status Code = 200, Time = 2.048197s
+Request 13: Status Code = 200, Time = 2.096001s
+Request 14: Status Code = 200, Time = 2.046559s
+Request 15: Status Code = 200, Time = 2.026773s
+Request 16: Status Code = 200, Time = 2.081811s
+Request 17: Status Code = 200, Time = 2.057041s
+Request 18: Status Code = 200, Time = 2.058837s
+Request 19: Status Code = 200, Time = 2.051225s
+Request 20: Status Code = 200, Time = 2.054203s
+Request 21: Status Code = 200, Time = 2.061064s
+Request 22: Status Code = 200, Time = 2.047147s
+Request 23: Status Code = 200, Time = 2.035028s
+Request 24: Status Code = 200, Time = 2.057906s
+Request 25: Status Code = 200, Time = 2.041933s
+Request 26: Status Code = 200, Time = 2.088192s
+Request 27: Status Code = 200, Time = 2.076987s
+Request 28: Status Code = 200, Time = 2.035921s
+Request 29: Status Code = 200, Time = 2.061739s
+Request 30: Status Code = 200, Time = 2.061489s
