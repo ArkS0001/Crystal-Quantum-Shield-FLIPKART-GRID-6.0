@@ -1,3 +1,9 @@
+https://stackoverflow.com/questions/78154473/multi-layer-reverse-proxy-nginx
+
+https://github.com/dedoc/scramble/discussions/238
+
+https://scramble.dedoc.co/usage/security
+
 1. Data Filtering
 
     Input Validation: Ensure that all incoming data is validated according to the expected format, type, and length. This can be done using middleware in your API stack. For example, in Python's Flask or Django, you can use decorators or middleware to validate incoming requests.
