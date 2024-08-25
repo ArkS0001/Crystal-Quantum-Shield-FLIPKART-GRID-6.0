@@ -1,3 +1,4 @@
+```
 +------------------------------------------------------+
 |                     Client                           |
 +------------------------------------------------------+
@@ -26,8 +27,9 @@
 |                                                      |
 | 5. Decrypt API Requests/Data with Symmetric Key      |
 +------------------------------------------------------+
+```
 
-Diagram Description
+# Diagram Description
 1. Client Requests Secure Connection:
 
     Step 1: The client initiates a connection to the API server and requests a secure session.
