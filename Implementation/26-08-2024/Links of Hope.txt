@@ -1,0 +1,13 @@
+https://pypi.org/project/pqcryptography/
+
+https://pypi.org/project/pqcrypto/
+
+https://stackoverflow.com/questions/75559983/how-to-resolve-import-pqcrypto-could-not-be-resolved
+
+https://github.com/aabmets/quantcrypt
+
+https://medium.com/@varthinih73/key-generation-using-crystals-dilithium-digital-signature-scheme-9334cf5495c9
+
+https://github.com/GMUCERG/Dilithium
+
+https://www.ibm.com/docs/en/zos/2.5.0?topic=cryptography-crystals-dilithium-digital-signature-algorithm
