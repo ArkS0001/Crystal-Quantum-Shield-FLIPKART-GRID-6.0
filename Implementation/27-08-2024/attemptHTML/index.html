@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test</title>
+</head>
+<body>
+    <h1>API Test with Kyber Encryption</h1>
+    <button id="getRequest">Make GET Request</button>
+    <button id="postRequest">Make POST Request</button>
+
+    <h2>Response:</h2>
+    <pre id="responseOutput"></pre>
+    <h2>Kyber Output:</h2>
+    <pre id="kyberOutput"></pre>
+
+    <script>
+        document.getElementById('getRequest').addEventListener('click', () => {
+            fetch('http://127.0.0.1:5000/secure_api', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ api_url: 'https://api.github.com', method: 'GET' })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('responseOutput').textContent = JSON.stringify(data.response, null, 2);
+                document.getElementById('kyberOutput').textContent = JSON.stringify(data.processed_by_kyber, null, 2);
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        document.getElementById('postRequest').addEventListener('click', () => {
+            fetch('http://127.0.0.1:5000/secure_api', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ api_url: 'https://example.com/api', method: 'POST', payload: { key: 'value' } })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('responseOutput').textContent = JSON.stringify(data.response, null, 2);
+                document.getElementById('kyberOutput').textContent = JSON.stringify(data.processed_by_kyber, null, 2);
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
