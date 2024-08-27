@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYSTALS-Kyber and Dilithium Demo</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRYSTALS-Kyber and Dilithium Demo</h1>
+
+        <section>
+            <h2>Key Exchange (Kyber)</h2>
+            <button id="keyExchangeBtn">Perform Key Exchange</button>
+            <div id="keyExchangeResult"></div>
+        </section>
+
+        <section>
+            <h2>Message Signing (Dilithium)</h2>
+            <textarea id="messageInput" placeholder="Enter a message to sign..."></textarea>
+            <button id="signMessageBtn">Sign Message</button>
+            <div id="signatureResult"></div>
+        </section>
+
+        <section>
+            <h2>Signature Verification (Dilithium)</h2>
+            <button id="verifySignatureBtn">Verify Signature</button>
+            <div id="verificationResult"></div>
+        </section>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
