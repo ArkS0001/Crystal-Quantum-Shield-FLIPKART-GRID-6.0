@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <button type="submit">Login</button>
+    </form>
+    <p id="loginMessage"></p>
+
+    <h1>Products</h1>
+    <div id="productList"></div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ username, password })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    document.getElementById('loginMessage').innerText = 'Login successful!';
+                    loadProducts();
+                } else {
+                    document.getElementById('loginMessage').innerText = 'Login failed: ' + data.message;
+                }
+            });
+        });
+
+        function loadProducts() {
+            fetch('/products')
+            .then(response => response.json())
+            .then(data => {
+                const productList = document.getElementById('productList');
+                productList.innerHTML = '';
+                data.forEach(product => {
+                    const productItem = document.createElement('div');
+                    productItem.innerText = `${product.name} - $${product.price}`;
+                    productList.appendChild(productItem);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
