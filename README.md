@@ -1,5 +1,8 @@
 # FLIPKART-GRID-6.0
 
+![architecture2(1)](https://github.com/user-attachments/assets/5334caab-5128-4b53-8e76-85f30eb151ee)
+
+
 ```
 User (Flipkart) → [NGINX Proxy] → [Authentication Service] → [RBAC Service] → [Product & Inventory Management] → [Inventory Database]
                            ↓
