@@ -1,3 +1,5 @@
+git clone https://luajit.org/git/luajit.git
+
 ```
 To implement token scrambling in a reverse proxy on a Windows environment using NGINX and Lua, follow these steps:
 1. Set Up NGINX with Lua Support on Windows
