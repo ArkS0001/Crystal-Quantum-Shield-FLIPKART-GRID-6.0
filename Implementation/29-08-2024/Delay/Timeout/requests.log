@@ -1,0 +1,17 @@
+2024-08-29 21:56:43,412 - ERROR - Request 1 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:45,573 - ERROR - Request 2 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:47,723 - ERROR - Request 3 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:49,866 - ERROR - Request 4 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:52,023 - ERROR - Request 5 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:54,198 - ERROR - Request 6 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:56,343 - ERROR - Request 7 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:56:58,493 - ERROR - Request 8 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:57:00,652 - ERROR - Request 9 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:57:02,783 - ERROR - Request 10 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 21:57:04,942 - ERROR - Request 11 failed: Expecting value: line 1 column 1 (char 0)
+2024-08-29 22:04:34,762 - INFO - Request 1: Status Code: 500, Response: {'error': 'Internal Server Error'}
+2024-08-29 22:04:36,932 - INFO - Request 2: Status Code: 500, Response: {'error': 'Internal Server Error'}
+2024-08-29 22:04:39,082 - INFO - Request 3: Status Code: 500, Response: {'error': 'Internal Server Error'}
+2024-08-29 22:04:41,235 - INFO - Request 4: Status Code: 500, Response: {'error': 'Internal Server Error'}
+2024-08-29 22:04:43,387 - INFO - Request 5: Status Code: 500, Response: {'error': 'Internal Server Error'}
+2024-08-29 22:04:45,553 - INFO - Request 6: Status Code: 500, Response: {'error': 'Internal Server Error'}
