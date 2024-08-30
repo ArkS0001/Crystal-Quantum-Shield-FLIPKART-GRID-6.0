@@ -36,3 +36,12 @@ Timestamp,Level,Message,Action,Status,Secure,Encryption Details,Scrambled Token
 "2024-08-30 22:44:18,127",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
 "2024-08-30 22:44:18,128",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
 "2024-08-30 22:50:59,880",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,Jjmy1aVVxIG8IJ6T61CXXdVQLXUFIAYBPW5mt9ABliII1c0cISMRIMTf2RF0LWIwJ6OXMFcqpI2eslJ3ANnEsDsC2G.LzC0alNcILmbYbt6S4eypguiI.iWf-ksyQTCYCmvhObyNbMD6
+"2024-08-30 23:06:18,223",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,YkUVI3IN5oGI6cTlsIGhYNCFJ-Wm1sJybWbpJ4WIvwmu6mIIRs0YlVuHVo1N6ipIdOjOWLJyTYOMXIfqtlA9ZHSbMeBci4KGnC0ItCtm.IivsVZ0cyYe5LzVQSbkCO1.sAc1e4NCWzK6
+"2024-08-30 23:13:27,870",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 23:13:27,871",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,IynsClb5Nk6.yr0VNGIN-JGbHN_czd0p3WJkEIbiMeIIJxsWFRMHU-gSkXRzMYcccvCCEC13tpmlwITIhSViVyvLO90esIWe51YQIll9CImm8I-hsrbV4cpCQjAsICIi.MtT6gmTJ56R
+"2024-08-30 23:19:27,920",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 23:19:27,921",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,.u1reNicHC-vgsPckacOsytmlHWLTmICIJ62j1FGy6NttIIIYwi50R8DfXIVJzfvxli3AyYJ.EI23UiJkbIcCai4WVIRclbxIMsYhMBV0Cbe6QWTkkemAI5cTGpIdhN0SjlsNnpJ9Izb
+"2024-08-30 23:20:58,272",INFO,API call to /api/security/register secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 23:20:58,273",INFO,User bhaskarbanerjee1903@gmail.com registered successfully,register,Successful,Yes,N/A,AhESciCIyOODv1Zh9lFKmA9ifMo6WjcbrQieTphyI55iXkUI5HXVShpIAWePaDa.JNYc26sor-wmlw1VlzJE4XbpycwIJIAu2DO4JsJ5UJJfaXWN1MuZCzI9DfNt2nI1x3iCRIkQZiVfEIbIzYYG6NIZYwR._cL
+"2024-08-30 23:30:36,460",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 23:30:36,596",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,kBRIDWJvOzlXGZl7UcyNNmhnWFNUXdltMhy6C6gb9CJmbt.IVmNGNtCSyFFmQ4QIhIsJIsl-6II8ibVIfvcNIpYnyiv9bA5WIL1QbTNNc5peTs0VevetcY8.CMLkwctzVJ4sIiCzVC08
