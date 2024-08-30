@@ -17,18 +17,19 @@ class CSVHandler(logging.Handler):
                 writer.writerow(['Timestamp', 'Level', 'Message', 'Action', 'Status', 'Secure'])
 
     def emit(self, record):
-        # Prepare log entry with additional fields
-        log_entry = [
-            self.formatTime(record),
-            record.levelname,
-            record.getMessage(),
-            getattr(record, 'action', 'N/A'),
-            getattr(record, 'status', 'N/A'),
-            getattr(record, 'secure', 'N/A')
-        ]
-        with open(self.filename, mode='a', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(log_entry)
+        # Only write logs related to login and logout actions
+        if 'Login' in record.getMessage() or 'Logout' in record.getMessage():
+            log_entry = [
+                self.formatTime(record),
+                record.levelname,
+                record.getMessage(),
+                getattr(record, 'action', 'N/A'),
+                getattr(record, 'status', 'N/A'),
+                getattr(record, 'secure', 'N/A')
+            ]
+            with open(self.filename, mode='a', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow(log_entry)
 
     def formatTime(self, record, datefmt=None):
         return self.formatter.formatTime(record, datefmt)
