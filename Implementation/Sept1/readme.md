@@ -47,7 +47,7 @@ Conclusion:
     Organizations must assess their cryptographic strategies and prepare for a post-quantum future to mitigate these risks.
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Quantum Preparedness
 
