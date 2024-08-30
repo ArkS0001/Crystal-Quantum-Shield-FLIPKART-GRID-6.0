@@ -1,0 +1,20 @@
+Timestamp,Level,Message,Action,Status,Secure,Encryption Details
+"2024-08-30 11:52:56,040",INFO,Login successful for user,login,Successful,Yes,N/A
+"2024-08-30 11:53:00,529",INFO,Logout successful for user,logout,Successful,Yes,N/A
+"2024-08-30 11:58:13,754",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 11:59:17,907",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 11:59:17,907",INFO,Login successful for user,login,Successful,Yes,N/A
+"2024-08-30 11:59:22,972",INFO,API call to /api/security/logout secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 11:59:22,973",INFO,Logout successful for user,logout,Successful,Yes,N/A
+"2024-08-30 12:04:23,133",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 12:04:23,133",INFO,Login successful for verma,login,Successful,Yes,N/A
+"2024-08-30 12:04:30,978",INFO,API call to /api/security/logout secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 12:04:30,979",INFO,Logout successful for verma,logout,Successful,Yes,N/A
+"2024-08-30 12:06:20,592",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 12:06:20,592",INFO,Login successful for arks,login,Successful,Yes,N/A
+"2024-08-30 12:06:28,138",INFO,API call to /api/security/logout secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 12:06:28,140",INFO,Logout successful for arks,logout,Successful,Yes,N/A
+"2024-08-30 12:06:38,525",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 12:06:38,525",WARNING,Login failed for baap hai,login,Failed,No,N/A
+"2024-08-30 12:07:03,723",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True"
+"2024-08-30 12:07:03,723",WARNING,Login failed for admin,login,Failed,No,N/A
