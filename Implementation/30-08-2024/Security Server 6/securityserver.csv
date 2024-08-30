@@ -1,0 +1,38 @@
+Timestamp,Level,Message,Action,Status,Secure,Encryption Details,Scrambled Token
+"2024-08-30 21:27:41,911",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 21:27:41,927",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 21:27:41,927",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:08:48,849",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:08:48,849",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:08:48,849",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:11:27,748",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:11:27,748",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:11:27,748",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:21:51,488",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:21:51,797",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:21:51,798",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:23:55,005",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:23:55,009",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:23:55,009",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:27:26,040",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:27:26,126",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:27:26,126",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:28:54,245",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:28:54,251",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:28:54,251",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:31:15,776",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:31:15,780",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:31:15,781",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:35:13,768",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:35:13,777",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:35:13,778",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:37:02,285",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:37:02,289",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:37:02,289",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:42:12,153",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:42:12,158",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:42:12,158",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:44:18,057",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:44:18,127",INFO,API call to /api/security/login secured,API Call,Successful,Yes,"Keys Match: True, Signature Valid: True",
+"2024-08-30 22:44:18,128",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,N/A
+"2024-08-30 22:50:59,880",INFO,Login successful for email@gmail.com,login,Successful,Yes,N/A,Jjmy1aVVxIG8IJ6T61CXXdVQLXUFIAYBPW5mt9ABliII1c0cISMRIMTf2RF0LWIwJ6OXMFcqpI2eslJ3ANnEsDsC2G.LzC0alNcILmbYbt6S4eypguiI.iWf-ksyQTCYCmvhObyNbMD6
