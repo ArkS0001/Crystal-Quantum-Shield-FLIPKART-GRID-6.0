@@ -1,0 +1,19 @@
+Timestamp,Level,Message,Action,Status,Secure
+"2024-08-30 10:26:16,922",INFO,"[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001",N/A,N/A,N/A
+"2024-08-30 10:26:16,923",INFO,[33mPress CTRL+C to quit[0m,N/A,N/A,N/A
+"2024-08-30 10:26:16,930",INFO, * Restarting with watchdog (windowsapi),N/A,N/A,N/A
+"2024-08-30 10:26:17,201",WARNING, * Debugger is active!,N/A,N/A,N/A
+"2024-08-30 10:26:17,201",INFO, * Debugger PIN: 882-058-254,N/A,N/A,N/A
+"2024-08-30 10:27:25,152",INFO,Login attempt by user,login,Attempt,Yes
+"2024-08-30 10:27:25,152",INFO,Login successful for user,login,Successful,Yes
+"2024-08-30 10:27:25,452",INFO,"127.0.0.1 - - [30/Aug/2024 10:27:25] ""POST /api/security/login HTTP/1.1"" 200 -",N/A,N/A,N/A
+"2024-08-30 10:28:12,214",INFO,Logout attempt by user,logout,Attempt,Yes
+"2024-08-30 10:28:12,214",INFO,Logout successful for user,logout,Successful,Yes
+"2024-08-30 10:28:12,214",INFO,"127.0.0.1 - - [30/Aug/2024 10:28:12] ""POST /api/security/logout HTTP/1.1"" 200 -",N/A,N/A,N/A
+"2024-08-30 10:29:05,640",INFO,Login attempt by admin,login,Attempt,Yes
+"2024-08-30 10:29:05,640",INFO,Login successful for admin,login,Successful,Yes
+"2024-08-30 10:29:05,640",INFO,"127.0.0.1 - - [30/Aug/2024 10:29:05] ""POST /api/security/login HTTP/1.1"" 200 -",N/A,N/A,N/A
+"2024-08-30 10:29:11,655",INFO,Logout attempt by admin,logout,Attempt,Yes
+"2024-08-30 10:29:11,655",INFO,Logout successful for admin,logout,Successful,Yes
+"2024-08-30 10:29:11,655",INFO,"127.0.0.1 - - [30/Aug/2024 10:29:11] ""POST /api/security/logout HTTP/1.1"" 200 -",N/A,N/A,N/A
