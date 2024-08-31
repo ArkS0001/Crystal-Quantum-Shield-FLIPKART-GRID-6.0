@@ -1,3 +1,12 @@
+## imp add this
+Security Headers:Consider adding security headers to enhance your site's security, such as Content Security Policy (CSP), X-Frame-Options, and X-XSS-Protection.
+```
+add_header X-Content-Type-Options nosniff;
+add_header X-Frame-Options SAMEORIGIN;
+add_header X-XSS-Protection "1; mode=block";
+add_header Content-Security-Policy "default-src 'self'";
+```
+
 It sounds like your setup is a bit complex, with NGINX, Flask (app.py), and a security server (Securityserver.py) involved, and you also have a React frontend. The issue you're describing might be caused by the way requests are being routed between these components.
 Understanding the Flow:
 
