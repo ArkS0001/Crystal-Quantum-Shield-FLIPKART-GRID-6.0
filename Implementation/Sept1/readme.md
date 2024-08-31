@@ -1,4 +1,9 @@
 https://www.genre.com/us/knowledge/publications/2023/september/the-future-of-cryptography-and-quantum-computing-en
+
+https://www.ibm.com/docs/en/zos/2.5.0?topic=cryptography-crystals-dilithium-digital-signature-algorithm
+
+https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
+
 # IMPORTANT POINTS FOR VIDEO
 1. Quantum Computing Overview
 
