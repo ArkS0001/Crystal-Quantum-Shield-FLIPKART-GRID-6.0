@@ -4,6 +4,8 @@ https://www.ibm.com/docs/en/zos/2.5.0?topic=cryptography-crystals-dilithium-digi
 
 https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
 
+https://drive.google.com/file/d/1LDsmZKJwMvUJk2LxD7qFwNeY_TlAQzAv/view?usp=sharing
+
 # IMPORTANT POINTS FOR VIDEO
 1. Quantum Computing Overview
 
