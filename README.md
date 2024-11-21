@@ -9,6 +9,9 @@ https://github.com/user-attachments/assets/cc9dfce4-8114-496b-bf15-40175be539cf
 ![architecture2(1)](https://github.com/user-attachments/assets/5334caab-5128-4b53-8e76-85f30eb151ee)
 
 
+![1732071321079](https://github.com/user-attachments/assets/300eac22-7c52-4d0e-a73f-6f3ba92b7208)
+
+
 ```
 User (Flipkart) → [NGINX Proxy] → [Authentication Service] → [RBAC Service] → [Product & Inventory Management] → [Inventory Database]
                            ↓
