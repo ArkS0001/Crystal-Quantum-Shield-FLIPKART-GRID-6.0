@@ -33,3 +33,21 @@ three users using non-commutative group for electronic health record system, Jou
 [11] A. Chaturvedi, V. Shukla, M.K. Misra, Three party key sharing protocol using polynomial rings,
 5th IEEE Uttar Pradesh Section International Conference on Electrical, Electronics and Computer
 Engineering (UPCON), 2018, 1-5, DOI: 10.1109/UPCON.2018.8596905
+
+Applied Cryptography, Second Edition: Protocols, Algorithms, and Source Code in C (cloth)
+Author(s): Bruce Schneier.
+
+[15] A. Awasthi, A. Chaturvedi, Cryptography: Classical versus Post-Quantum, Cornell university
+arxiv, 2024, DOI: https://doi.org/10.48550/arXiv.2402.10988
+
+[16] Pranjal, A. Chaturvedi, Post-Quantum Cryptography, Cornell university arxiv, 2024, DOI:
+https://doi.org/10.48550/arXiv.2402.10576
+
+[17] FIPS. 46-3, ‘“Data Encryption Standard,” Federal Information Processing Standard (FIPS), Publication 46-3, National Bureau of Standards, US. Department of Commerce, Washington D.C.,
+October 25, 1999.
+
+Charles H. Bennett, Gilles Brassard, and Artur K. Ekert ”Quantum Cryptography”, Scientific
+American 267:4, (October 1992).
+
+Affordable Quantum Cryptography http://www.siemens.com/innovation/apps/pof micr
+osite/ pof-spring2009/ html en/interviewchristianmonyk.htm
