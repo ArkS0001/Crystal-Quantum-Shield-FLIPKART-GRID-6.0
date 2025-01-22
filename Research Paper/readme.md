@@ -3,6 +3,9 @@
 
 
 ## Citations
+
+Bavdekar, R., Chopde, E. J., Bhatia, A., Tiwari, K., Daniel, S. J., & Atul. (2022). Post Quantum Cryptography: techniques, challenges, standardization, and directions for future research. arXiv (Cornell University). https://doi.org/10.48550/arxiv.2202.02826
+
 CSIRT-Fin, CERT-In, & Mastercard. (2023). API Security: Threats, Best Practices, Challenges, and Way forward using AI.
 
 Qazi, F. (2023). Application Programming Interface (API) security in cloud applications. EAI Endorsed Transactions on Cloud Systems, 7(23), e1. https://doi.org/10.4108/eetcs.v7i23.3011
