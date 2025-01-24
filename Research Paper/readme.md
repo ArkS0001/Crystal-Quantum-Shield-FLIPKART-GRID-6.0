@@ -5,6 +5,8 @@
 
 
 ## Citations
+Tripathi, T., Awasthi, A., Singh, S. P., & Chaturvedi, A. (2024, March 28). Post Quantum Cryptography and its Comparison with Classical Cryptography. arXiv.org. https://arxiv.org/abs/2403.19299 
+
 Avanzi, R., Bos, J., Ducas, L., Kiltz, E., Lepoint, T., Lyubashevsky, V., Schanck, J. M., Schwabe, P., Seiler, G., & Stehlé, D. (2021). CRYSTALS-Kyber Algorithm Specifications And Supporting Documentation (version 3.02). https://pq-crystals.org/kyber/data/kyber-specification-round3-20210804.pdf
 
 Bavdekar, R., Chopde, E. J., Bhatia, A., Tiwari, K., Daniel, S. J., & Atul. (2022). Post Quantum Cryptography: techniques, challenges, standardization, and directions for future research. arXiv (Cornell University). https://doi.org/10.48550/arxiv.2202.02826
