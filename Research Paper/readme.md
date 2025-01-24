@@ -53,3 +53,68 @@ American 267:4, (October 1992).
 
 Affordable Quantum Cryptography http://www.siemens.com/innovation/apps/pof micr
 osite/ pof-spring2009/ html en/interviewchristianmonyk.htm
+
+
+
+
+# **Algorithm for Crystal Quantum Shield (C.Q.S) Flow**
+
+1. **Start**  
+   - Receive incoming requests from the host (e.g., Login, Product Search, Payment).
+
+2. **Pass Through API Gateway**  
+   - Route the request to the Crystal Quantum Shield (C.Q.S) for processing.
+
+3. **Authentication**  
+   - Validate user identity using **Crystal Dilithium**:
+     - Generate a signature \((z, h)\) where \(z = c \cdot s_1 + y\) and \(h\) is computed via hashing.  
+     - Verify signature using public key \((t_1, h)\): \(||z||_\infty < \beta\) and hash consistency with \(t_1\).
+   - If authentication fails, log the failure and discard the request.
+
+4. **Encryption**  
+   - Encrypt data using **Crystal Kyber**:
+     - Generate shared secret \(K\) via key encapsulation: \(K = H(ss)\), where \(ss = H(pk \cdot sk + noise)\).  
+     - Use encapsulated key for symmetric encryption.
+   - Ensure secure communication between host and server.
+
+5. **Role-Based Access Control (RBAC)**  
+   - Check user permissions and roles to validate access.  
+   - Apply rate limiting and data filtering based on policies.  
+   - If access is denied, log and discard the request.
+
+6. **Reverse Proxy with Multi-Layer Security**  
+   - Route the request through multi-layer proxy servers.  
+   - Perform additional checks:
+     - **Filtering**: Analyze request content.
+     - **Modify IP Header**: Adjust headers for security.
+     - **Token Scramble**: Encrypt tokens for further validation.
+     - **Add Delay**: Introduce latency if suspicious patterns are detected.
+
+7. **Endpoint Monitoring**  
+   - Continuously monitor requests and responses for anomalies.
+
+8. **Whitelist and Blacklist Validation**  
+   - Compare requests against whitelist and blacklist rules.  
+   - If on blacklist, log and discard the request.  
+   - If on whitelist, allow further processing.
+
+9. **Data Flow Validation**  
+   - Validate JSON Web Token (JWT) for integrity.  
+   - Accept data flow if all checks pass.
+
+10. **Logging and Monitoring**  
+    - Log all requests and their statuses (passed, failed, filtered, etc.).  
+    - Send logs to the monitoring system for visualization.
+
+11. **Fine-Tuned Deep Learning Model**  
+    - Analyze logs and request patterns using a trained model.  
+    - Generate insights and alerts for anomalies.
+
+12. **Dashboard Monitoring and Alerts**  
+    - Visualize data metrics and send alerts for suspicious activities.
+
+13. **Response to End User**  
+    - If all validations succeed, forward the response to the API Gateway for delivery to the end user.
+
+14. **End**  
+   - If any step fails, discard the request and log the failure.
